@@ -1,0 +1,1005 @@
+  *,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/********* CSS Communs ********/
+
+
+/************ Haut de page 1 *************/
+
+.bigTitle {
+  font-family: 'Playfair Display', serif;
+  font-size: 60px;
+  color: #3a4e29;
+  text-shadow: 1px 1px 2px #494B47;
+  background-position: bottom right, left, right;
+  text-align: center;
+}
+
+.firstImage {
+  width: 100%;
+  height: 600px;
+  background-image: url("../images/bestplant.jpg");
+  box-shadow: inset 0 0 0 1000px rgba(235, 223, 219, 0.20);
+}
+
+.mylinks {
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #682A16;
+}
+
+.mylinksli {
+  display: inline-block;
+  border-left: 1px solid #682A16;
+  padding: 1rem;
+}
+
+.mylinkslii {
+  display: inline-block;
+  border-left: 1px solid #682A16;
+  padding: 1rem;
+}
+
+.mylinksul {
+  text-align: center;
+}
+
+.textpart1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #FFF;
+  font-size: 40px;
+  text-align: center;
+  text-shadow: 1px 1px 2px #494B47;
+  padding-top: 10rem;
+  padding-right: 20rem;
+  padding-left: 20rem;
+}
+
+
+/**************** Partie 2 *****************/
+
+.mytextandimage {
+  margin: auto;
+}
+
+.part2 {
+  background-color: #F9F6F4;
+}
+
+.titre3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  color: #682A16;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: center;
+}
+
+.textpart2 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: justify;
+  position: absolute;
+  left: 200px;
+  width: 800px;
+  padding: 15px;
+}
+
+.teamsimage {
+  display: block;
+  margin-left: auto;
+  margin-right: 100px;
+  padding-bottom: 5rem;
+  margin-top: auto;
+  width: 400px;
+}
+
+.link2 {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  float: right;
+  border: 1px solid #CAB4AE;
+  padding: .8rem;
+  border-radius: 30px;
+  background-color: #CAB4AE;
+}
+
+.link2:hover {
+  cursor: pointer;
+}
+
+
+/************ Partie 3 *************/
+
+.part3 {
+  background-color: #F1E5E2;
+  padding: 5rem;
+}
+
+.block-4 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 50px;
+  grid-row-gap: 35px;
+}
+
+.titre44 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 50px;
+  color: #A17A69;
+  text-align: left;
+  margin-left: 50px;
+}
+
+.conception {
+  grid-area: 1 / 1 / 2 / 2;
+  margin-left: 3rem;
+}
+
+.conception h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  color: #707070;
+}
+
+.community {
+  grid-area: 1 / 2 / 2 / 3;
+  margin-right: 3rem;
+}
+
+.community h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  color: #707070;
+}
+
+.graphisme {
+  grid-area: 2 / 1 / 3 / 2;
+  margin-left: 3rem;
+}
+
+.graphisme h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  color: #707070;
+}
+
+.marketing {
+  grid-area: 2 / 2 / 3 / 3;
+  margin-right: 3rem;
+}
+
+.marketing h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  color: #707070;
+}
+
+.paragraphe {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #707070;
+  padding: 1rem;
+  margin: auto;
+  text-align: justify;
+}
+
+.monlien-4 {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  float: right;
+  border: 1px solid #CAB4AE;
+  padding: .8rem;
+  border-radius: 30px;
+  background-color: #CAB4AE;
+}
+
+
+/********* Partie 4 ****************/
+
+.part4 {
+  background-color: #D0BCB4;
+  padding: 5rem;
+}
+
+.part4 h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 50px;
+  color: #A17A69;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.presente-employes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+}
+
+.premier-employe {
+  grid-area: 1 / 1 / 2 / 2;
+  text-align: center;
+}
+
+.photo-employe {
+  width: 200px;
+  height: 200px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.prenom-employe {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+
+.deuxieme-employe {
+  grid-area: 1 / 2 / 2 / 3;
+  text-align: center;
+}
+
+.troisieme-employe {
+  grid-area: 1 / 3 / 2 / 4;
+  text-align: center;
+}
+
+.quatrieme-employe {
+  grid-area: 2 / 1 / 3 / 2;
+  text-align: center;
+}
+
+.cinquieme-employe {
+  grid-area: 2 / 2 / 3 / 3;
+  text-align: center;
+}
+
+.sixieme-employe {
+  grid-area: 2 / 3 / 3 / 4;
+  text-align: center;
+}
+
+.bio-employe {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: grey;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  text-align: center;
+}
+
+
+/*********** Partie 6 ******************/
+
+.part6 {
+  background-color: #E7DCD8;
+}
+
+#temoignage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.temoignage-entete {
+  letter-spacing: 1px;
+  margin: 30px 0px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.temoignage-entete h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  background-color: #E7DCD8;
+  color: #A17A69;
+  padding: 10px 20px;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+}
+
+.temoignage-entete span {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.container-box-temoignage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.box-temoignage {
+  width: 500px;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+  background-color: #E7DCD8;
+  padding: 20px;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.profil-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.profil-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.profil {
+  display: flex;
+  align-items: center;
+}
+
+.name-username {
+  display: flex;
+  flex-direction: column;
+}
+
+.name-username strong {
+  color: #3d3d3d;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+
+.name-username span {
+  color: #979797;
+  font-size: 0.8rem;
+}
+
+.reviews {
+  color: #682A16;
+}
+
+.haut-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.avis-client p {
+  font-size: 0.9rem;
+  color: #682A16;
+}
+
+.box-temoignage:hover {
+  transform: translateY(-10px);
+  transition: all ease 0.3s;
+}
+
+
+/******* Partie 7 avec formulaire **********/
+
+.part7 {
+  display: inline-block;
+  background-image: url("../images/plants3.jpg");
+  width: 100%;
+  height: auto;
+  box-shadow: inset 0 0 0 1000px rgba(235, 223, 219, 0.70);
+  padding: 10rem;
+}
+
+.titredecontact {
+  font-family: 'Playfair Display', serif;
+  font-size: 60px;
+  color: #A17A69;
+  text-align: left;
+}
+
+.container {
+  float: right;
+  width: 50%;
+}
+
+.formulaire {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+/*** Partie 7 QUE le formulaire ***/
+
+#leprenom {
+  width: 50%;
+  border: 1px solid #9e9e9e;
+  border-radius: 30px;
+}
+
+#lemail {
+  width: 50%;
+  border: 1px solid #9e9e9e;
+  border-radius: 30px;
+}
+
+#message {
+  width: 100%;
+  height: 150px;
+  border: 1px solid #9e9e9e;
+  border-radius: 30px;
+}
+
+#submit {
+  font-size: 20px;
+  width: 50%;
+  border-radius: 30px;
+  border: 1px solid #F1E5E2;
+  padding: 1.5rem;
+  background-color: #F1E5E2;
+}
+
+
+/*******
+.part7 {
+
+  display: inline-block ;
+  width: 800px;
+  height: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 300%;
+  background-color: transparent;
+  background-image: url("../images/plants3.jpg");
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+******/
+
+
+/******* Partie 8 **********/
+
+.part8 {
+  position: sticky;
+  background-color: #EBE0DC;
+  padding: 5rem;
+}
+
+.conteneur {
+  margin-top: auto;
+  overflow: hidden;
+}
+
+.conteneur h2 {
+  font-family: 'Manrope', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flottant {
+  width: 33%;
+  float: left;
+  display: inline;
+  padding: 1rem;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #141610;
+}
+
+h5 {
+  font-family: 'Manrope', sans-serif;
+  font-size: 18px;
+}
+
+#secondparagraphe {
+  border-left: 1px solid rgba(158, 151, 165, 0.4);
+  border-right: 1px solid rgba(158, 151, 165, 0.4);
+  padding: 1rem;
+}
+
+
+/********* FOOTER *********/
+
+footer {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 13px;
+  padding: 5rem;
+}
+
+.footer {
+  background-color: #fff;
+}
+
+.lien-bas {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+  color: #682A16;
+}
+
+
+/******************* RESPONSIVE DESIGN ******************/
+
+
+/************ PARTIE 800PX ***********/
+
+@media screen and (max-width: 50rem) {
+  .firstImage {
+    width: 125%;
+    height: 600px;
+    background-image: url("../images/bestplant.jpg");
+    box-shadow: inset 0 0 0 1000px rgba(235, 223, 219, 0.40);
+  }
+  .textpart1 {
+    color: #682A16;
+    font-size: 35px;
+    margin: 0;
+    padding: 10rem 5rem 0 5rem;
+  }
+  .part2 {
+    background-color: #F9F6F4;
+    width: 125%;
+  }
+  .titre3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    color: #682A16;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    text-align: center;
+  }
+  .textpart2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    text-align: justify;
+    position: absolute;
+    left: 25px;
+    width: 400px;
+    padding: 1px;
+  }
+  .teamsimage {
+    display: block;
+    margin-left: auto;
+    margin-right: 100px;
+    padding-bottom: 5rem;
+    margin-top: auto;
+    width: 300px;
+  }
+  .part3 {
+    background-color: #F1E5E2;
+    width: 125%;
+  }
+  .block-4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 35px;
+  }
+  .titre44 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #A17A69;
+    text-align: left;
+    margin-left: 50px;
+  }
+  .conception {
+    grid-area: 1 / 1 / 2 / 2;
+    margin-left: 3rem;
+  }
+  .conception h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #707070;
+  }
+  .community {
+    grid-area: 1 / 2 / 2 / 3;
+    margin-right: 3rem;
+  }
+  .community h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #707070;
+  }
+  .graphisme {
+    grid-area: 2 / 1 / 3 / 2;
+    margin-left: 3rem;
+  }
+  .graphisme h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #707070;
+  }
+  .marketing {
+    grid-area: 2 / 2 / 3 / 3;
+    margin-right: 3rem;
+  }
+  .marketing h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #707070;
+  }
+  .paragraphe {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #707070;
+    padding: 1rem;
+    margin: auto;
+    text-align: justify;
+  }
+  .monlien-4 {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    float: right;
+    border: 1px solid #CAB4AE;
+    padding: .8rem;
+    border-radius: 30px;
+    background-color: #CAB4AE;
+  }
+  .part4 {
+    background-color: #D0BCB4;
+    width: 125%;
+  }
+  .part4 h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #A17A69;
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+  .presente-employes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 40px;
+  }
+  .premier-employe {
+    grid-area: 1 / 1 / 2 / 2;
+    text-align: center;
+  }
+  .photo-employe {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  .bio-employe {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: grey;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    text-align: center;
+  }
+  .part6 {
+    background-color: #E7DCD8;
+    width: 125%;
+  }
+  .part7 {
+    display: inline-block;
+    background-image: url("../images/plants3.jpg");
+    width: 125%;
+    height: auto;
+    box-shadow: inset 0 0 0 1000px rgba(235, 223, 219, 0.70);
+    padding: 10rem;
+  }
+  #leprenom {
+    width: 50%;
+    border: 1px solid #9e9e9e;
+    border-radius: 30px;
+  }
+  #lemail {
+    width: 50%;
+    border: 1px solid #9e9e9e;
+    border-radius: 30px;
+  }
+  #message {
+    width: 100%;
+    height: 150px;
+    border: 1px solid #9e9e9e;
+    border-radius: 30px;
+  }
+  #submit {
+    font-size: 20px;
+    width: 50%;
+    border-radius: 30px;
+    border: 1px solid #F1E5E2;
+    padding: 1.5rem;
+    background-color: #F1E5E2;
+  }
+  .titredecontact {
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    color: #A17A69;
+    text-align: center;
+  }
+  .container {
+    width: 100%;
+    text-align: center;
+  }
+  .formulaire {
+    font-family: 'Open Sans', sans-serif;
+  }
+  .part8 {
+    position: sticky;
+    background-color: #EBE0DC;
+    width: 125%;
+  }
+  .conteneur {
+    margin-top: auto;
+    overflow: hidden;
+  }
+  h5 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    padding: 1rem;
+  }
+  footer {
+    text-align: center;
+    position: absolute;
+    width: 125%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 13px;
+    padding: 5rem;
+  }
+}
+
+
+/************ PARTIE 480PX ***********/
+
+@media screen and (max-width: 30rem) {
+  .firstImage {
+    width: 180%;
+    height: 600px;
+    background-image: url("../images/bestplant.jpg");
+    box-shadow: inset 0 0 0 1000px rgba(235, 223, 219, 0.20);
+  }
+  .textpart1 {
+    color: #682A16;
+    font-size: 25px;
+    margin: 0;
+    padding: 10rem 2rem 0 2rem;
+  }
+  .part2 {
+    background-color: #F9F6F4;
+    width: 180%;
+  }
+  .titre3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    color: #682A16;
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+    text-align: center;
+  }
+  .textpart2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    text-align: justify;
+    position: absolute;
+    left: 25px;
+    width: 400px;
+    padding: 1px;
+  }
+  .teamsimage {
+    display: block;
+    margin-left: auto;
+    margin-right: 100px;
+    padding-bottom: 5rem;
+    margin-top: auto;
+    width: 300px;
+  }
+  .part3 {
+    background-color: #F1E5E2;
+    width: 180%;
+  }
+  .block-4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 35px;
+  }
+  .titre44 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #A17A69;
+    text-align: left;
+    margin-left: 50px;
+  }
+  .conception {
+    grid-area: 1 / 1 / 2 / 2;
+    margin-left: 3rem;
+  }
+  .conception h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #707070;
+  }
+  .community {
+    grid-area: 1 / 2 / 2 / 3;
+    margin-right: 3rem;
+  }
+  .community h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #707070;
+  }
+  .graphisme {
+    grid-area: 2 / 1 / 3 / 2;
+    margin-left: 3rem;
+  }
+  .graphisme h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #707070;
+  }
+  .marketing {
+    grid-area: 2 / 2 / 3 / 3;
+    margin-right: 3rem;
+  }
+  .marketing h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #707070;
+  }
+  .paragraphe {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #707070;
+    padding: 1rem;
+    margin: auto;
+    text-align: justify;
+  }
+  .monlien-4 {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    float: right;
+    border: 1px solid #CAB4AE;
+    padding: .8rem;
+    border-radius: 30px;
+    background-color: #CAB4AE;
+  }
+  .part4 {
+    background-color: #D0BCB4;
+    width: 180%;
+  }
+  .part4 h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #A17A69;
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+  .presente-employes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 40px;
+  }
+  .premier-employe {
+    grid-area: 1 / 1 / 2 / 2;
+    text-align: center;
+  }
+  .photo-employe {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  .bio-employe {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: grey;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    text-align: center;
+  }
+  .part6 {
+    background-color: #E7DCD8;
+    width: 180%;
+  }
+  .part7 {
+    display: inline-block;
+    background-image: url("../images/plants3.jpg");
+    width: 180%;
+    height: auto;
+    box-shadow: inset 0 0 0 1000px rgba(235, 223, 219, 0.70);
+    padding: 10rem;
+  }
+  #leprenom {
+    width: 50%;
+    border: 1px solid #9e9e9e;
+    border-radius: 30px;
+  }
+  #lemail {
+    width: 50%;
+    border: 1px solid #9e9e9e;
+    border-radius: 30px;
+  }
+  #message {
+    width: 100%;
+    height: 150px;
+    border: 1px solid #9e9e9e;
+    border-radius: 30px;
+  }
+  #submit {
+    font-size: 20px;
+    width: 80%;
+    border-radius: 30px;
+    border: 1px solid #F1E5E2;
+    padding: 1.5rem;
+    background-color: #F1E5E2;
+  }
+  .titredecontact {
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    color: #A17A69;
+    text-align: center;
+  }
+  .container {
+    width: 100%;
+    text-align: center;
+  }
+  .formulaire {
+    font-family: 'Open Sans', sans-serif;
+  }
+  .part8 {
+    position: sticky;
+    background-color: #EBE0DC;
+    width: 180%;
+  }
+  .conteneur {
+    margin-top: auto;
+    overflow: hidden;
+  }
+  h5 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    padding: 2rem;
+  }
+  footer {
+    text-align: center;
+    position: absolute;
+    width: 180%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 13px;
+    padding: 5rem;
+  }
